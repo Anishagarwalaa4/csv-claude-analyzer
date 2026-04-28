@@ -1,0 +1,30 @@
+# Secrets — NEVER commit these
+.env
+*.pem
+*.key
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+*.tmp
